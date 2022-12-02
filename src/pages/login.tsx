@@ -71,7 +71,7 @@ const Login: FunctionComponent = () => {
           return;
         }
         
-        history.push('/pokemons');
+        history.push('/');
         
       });
     }
