@@ -4,8 +4,8 @@ export default class Creature {
     name: string;
     image: string | null;
     description: string | null;
-    location?: string | null;
-    drops?: string[] | null;
+    location?: string;
+    drops?: string[];
 
     constructor(
         id: string,
